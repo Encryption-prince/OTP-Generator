@@ -1,0 +1,176 @@
+
+/* Gradient-Changing Background  */
+
+
+.gradient-background {
+    height: auto;
+     background: linear-gradient(62deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+       animation: gradient 15s ease infinite; 
+        background-size: 400% 400%;
+    
+  }
+  @-webkit-keyframes gradient{
+    0% {
+      background-position: 0 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+       background-position: 0% 50%;
+    }
+  }
+  @keyframes gradient{
+    0% {
+      background-position: 0 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+       background-position: 0% 50%;
+    }
+  }
+
+
+/* Rest Design */
+
+
+p{
+    text-align: center;
+}
+h1{
+    margin-top: 12.5rem;
+    margin-bottom: 0px;
+    color: #fff;
+    font-size : 3.2rem;
+    font-family: 'Sanchez', serif;
+}
+p{
+    padding: 0px;
+    margin: 20px;
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: 'Kaushan Script', cursive;
+}
+
+
+
+
+
+.generator { 
+    background-color: #f5f5f5; 
+    width: 250px; 
+    margin: 50px auto; 
+    padding: 20px; 
+    border-radius: 10px; 
+} 
+
+
+  
+
+
+
+  
+div.password { 
+    display: grid; 
+    grid-template-columns: auto min-content; 
+    border-radius: 10px; 
+    overflow: hidden; 
+} 
+  
+div.password input { 
+    padding: 7px 10px; 
+    background-color: #ddd; 
+    border: 0; 
+    color: #333; 
+} 
+  
+button { 
+    background-color: #4caf50; 
+    color: #fff; 
+    text-transform: uppercase; 
+    padding: 5px 15px; 
+    border: 0; 
+    border-radius: 10px; 
+    width: 100%;
+} 
+  
+div.password button { 
+    border-radius: 0; 
+} 
+  
+div.range { 
+    margin: 10px 0; 
+    display: grid; 
+    grid-template-columns: 1fr min-content; 
+} 
+  
+div.range span { 
+    background-color: #ddd; 
+    padding: 10px; 
+    margin-left: 20px; 
+    min-width: 30px; 
+    text-align: center; 
+    border-radius: 10px; 
+} 
+  
+div.options { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 10px; 
+} 
+  
+div.options label { 
+    display: block; 
+    background-color: #ddd; 
+    padding: 10px; 
+    border-radius: 10px; 
+    cursor: pointer; 
+    font-family: sans-serif; 
+} 
+  
+button.generate { 
+    width: 100%; 
+    margin-top: 10px; 
+    padding: 10px; 
+} 
+  
+h1 { 
+    text-align: center; 
+    color: #fff; 
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      overflow: hidden;
+    }
+  
+    .gradient-background {
+      height: 100vh; /* Use 100% of the viewport height */
+      margin-top: 0; /* Adjust as needed */
+    }
+  
+    h1 {
+      margin-top: 175px; /* Adjust as needed */
+      font-size: 2.5rem;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+
+    /* button{
+       padding: 5px 25px 5px 15px;
+    }
+   */
+    .generator {
+      width: 255px;
+      margin: 20px auto;
+      padding: 10px;
+    }
+  }
+  
+  
